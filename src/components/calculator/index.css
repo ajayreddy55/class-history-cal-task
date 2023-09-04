@@ -1,0 +1,68 @@
+.bg-letter-calculator {
+    background-color: #02d96a;
+    padding: 20px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.calculator-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.cal-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.label-element-cal {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 9px;
+    margin-bottom: 7px;
+}
+
+.cal-input-element {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 11px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 320px;
+    height: 42px;
+}
+
+.cal-counter-container {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.no-of-letters-cal {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #02d96a;
+}
+
